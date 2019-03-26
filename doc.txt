@@ -8,7 +8,6 @@ git remote add origin https://github.com/zuobianjiaoluo/CoreWebApp.git
 
 
 github上传代码
-2016年02月15日 09:36:40 yf.z 阅读数：384
 1.在github上建立新的项目 如abc
 
     目录的路径为https://github.com/name/abc.git
