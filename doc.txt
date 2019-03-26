@@ -40,4 +40,6 @@ git commit -m '目录名'
 git remote add origin https://github.com/name/abc.git
 git push -u origin master
 
+
+10.如提交时显示db.lock文件异常，在文件右键忽略此文件
 上传完毕
