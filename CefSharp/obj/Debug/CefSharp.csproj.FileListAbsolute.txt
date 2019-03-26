@@ -1,0 +1,5 @@
+D:\官方项目\TestDemo\CefSharp\obj\Debug\CefSharp.csprojAssemblyReference.cache
+D:\官方项目\TestDemo\CefSharp\obj\Debug\CefSharp.Form1.resources
+D:\官方项目\TestDemo\CefSharp\obj\Debug\CefSharp.Properties.Resources.resources
+D:\官方项目\TestDemo\CefSharp\obj\Debug\CefSharp.csproj.GenerateResource.cache
+D:\官方项目\TestDemo\CefSharp\obj\Debug\CefSharp.csproj.CoreCompileInputs.cache

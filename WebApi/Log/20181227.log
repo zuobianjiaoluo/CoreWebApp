@@ -1,0 +1,2 @@
+2018-12-27 15:34:03,519  [7]  INFO   WebApi.Controllers.ValuesController.GetRealtyImg (WebApi)请求：request : {"areaCode":"B024","realtyid":2279071}
+2018-12-27 15:34:03,561  [7]  INFO   WebApi.Controllers.ValuesController.GetRealtyImg (WebApi)响应：{"message":"成功","data":{"realtyID":"2342342423","fileURIId":null,"fileName":"地方就是看来大家富士康的","fileType":null,"imageClass":null,"employeeID":0,"datetime":null}}

@@ -1,0 +1,10 @@
+D:\测试项目\WinFormsApp\WinFormsApp\bin\Debug\WinFormsApp.exe.config
+D:\测试项目\WinFormsApp\WinFormsApp\bin\Debug\WinFormsApp.exe
+D:\测试项目\WinFormsApp\WinFormsApp\bin\Debug\WinFormsApp.pdb
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.csprojAssemblyReference.cache
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.Form1.resources
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.Properties.Resources.resources
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.csproj.GenerateResource.cache
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.csproj.CoreCompileInputs.cache
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.exe
+D:\测试项目\WinFormsApp\WinFormsApp\obj\Debug\WinFormsApp.pdb

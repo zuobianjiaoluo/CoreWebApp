@@ -1,0 +1,14 @@
+D:\测试项目\WebApi\bin\Debug\netcoreapp2.1\WebApi.deps.json
+D:\测试项目\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.json
+D:\测试项目\WebApi\bin\Debug\netcoreapp2.1\WebApi.runtimeconfig.dev.json
+D:\测试项目\WebApi\bin\Debug\netcoreapp2.1\WebApi.dll
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.csprojAssemblyReference.cache
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.csproj.CoreCompileInputs.cache
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cache
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorAssemblyInfo.cs
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfoInputs.cache
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.AssemblyInfo.cs
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.RazorTargetAssemblyInfo.cache
+D:\测试项目\WebApi\bin\Debug\netcoreapp2.1\WebApi.pdb
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.dll
+D:\测试项目\WebApi\obj\Debug\netcoreapp2.1\WebApi.pdb
