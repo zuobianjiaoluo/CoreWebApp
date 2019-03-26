@@ -7,38 +7,37 @@ git remote add origin https://github.com/zuobianjiaoluo/CoreWebApp.git
 
 
 
-githubÉÏ´«´úÂë
-2016Äê02ÔÂ15ÈÕ 09:36:40 yf.z ÔÄ¶ÁÊı£º384
-1.ÔÚgithubÉÏ½¨Á¢ĞÂµÄÏîÄ¿ Èçabc
+githubä¸Šä¼ ä»£ç 
+1.åœ¨githubä¸Šå»ºç«‹æ–°çš„é¡¹ç›® å¦‚abc
 
-    Ä¿Â¼µÄÂ·¾¶Îªhttps://github.com/name/abc.git
+    ç›®å½•çš„è·¯å¾„ä¸ºhttps://github.com/name/abc.git
 
-2.°²×°github for windows
+2.å®‰è£…github for windows
 
-    ÏÂÔØµØÖ·: http://github-for-windows.en.softonic.com/
+    ä¸‹è½½åœ°å€: http://github-for-windows.en.softonic.com/
 
-3.°²×°Íê³ÉÖ®ºó, ´ò¿ª×ÀÃæÉÏµÄGit Shell
+3.å®‰è£…å®Œæˆä¹‹å, æ‰“å¼€æ¡Œé¢ä¸Šçš„Git Shell
 
-4.cdµ½±¾µØµÄÏîÄ¿Ä¿Â¼ ÈçD:/abc
+4.cdåˆ°æœ¬åœ°çš„é¡¹ç›®ç›®å½• å¦‚D:/abc
 
-5.Éú³Éssh keyÀ´ÑéÖ¤Éí·İ   
+5.ç”Ÿæˆssh keyæ¥éªŒè¯èº«ä»½   
 
   ssh-keygen -C 'name@email.com' -t rsa
-    ´ò¿ªC:\Users\Administrator\.ssh\id_rsa.pub, ¸´ÖÆÈ«²¿ÄÚÈİµ½https://github.com/settings/sshÖØĞÂÉú³Éssh key
-6.ÑéÖ¤ÊÇ·ñÕıÈ·
+    æ‰“å¼€C:\Users\Administrator\.ssh\id_rsa.pub, å¤åˆ¶å…¨éƒ¨å†…å®¹åˆ°https://github.com/settings/sshé‡æ–°ç”Ÿæˆssh key
+6.éªŒè¯æ˜¯å¦æ­£ç¡®
 
   ssh -T git@github.com
-7.Ö´ĞĞ
+7.æ‰§è¡Œ
 
   git clone https://github.com/name/abc.git
-8.¿½±´ÒªÉÏ´«µÄ´úÂëµ½D:/abc
+8.æ‹·è´è¦ä¸Šä¼ çš„ä»£ç åˆ°D:/abc
 
-9.Ö´ĞĞÒÔÏÂÃüÁî
+9.æ‰§è¡Œä»¥ä¸‹å‘½ä»¤
 
 git init
-git add 'Ä¿Â¼Ãû'
-git commit -m 'Ä¿Â¼Ãû'
+git add 'ç›®å½•å'
+git commit -m 'ç›®å½•å'
 git remote add origin https://github.com/name/abc.git
 git push -u origin master
 
-ÉÏ´«Íê±Ï
+ä¸Šä¼ å®Œæ¯•
