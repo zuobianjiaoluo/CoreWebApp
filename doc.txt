@@ -1,12 +1,4 @@
 
-git clone https://github.com/zuobianjiaoluo/CoreWebApp.git
-
-
-git remote add origin https://github.com/zuobianjiaoluo/CoreWebApp.git
-
-
-
-
 github上传代码
 1.在github上建立新的项目 如abc
 
@@ -29,7 +21,7 @@ github上传代码
   ssh -T git@github.com
 7.执行
 
-  git clone https://github.com/name/abc.git
+  git clone https://github.com/zuobianjiaoluo/CoreWebApp.git
 8.拷贝要上传的代码到D:/abc
 
 9.执行以下命令
@@ -37,9 +29,9 @@ github上传代码
 git init
 git add '目录名'
 git commit -m '目录名'
-git remote add origin https://github.com/name/abc.git
+git remote add origin https://github.com/zuobianjiaoluo/CoreWebApp.git
 git push -u origin master
 
-
 10.如提交时显示db.lock文件异常，在文件右键忽略此文件
+
 上传完毕
