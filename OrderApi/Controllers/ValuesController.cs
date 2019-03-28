@@ -22,6 +22,5 @@ namespace OrderApi.Controllers
             return "value";
         }
 
-    
     }
 }

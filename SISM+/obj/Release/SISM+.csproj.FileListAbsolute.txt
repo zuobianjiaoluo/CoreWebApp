@@ -1,0 +1,11 @@
+E:\test\CoreWebApp\SISM+\obj\Release\Interop.IWshRuntimeLibrary.dll
+E:\test\CoreWebApp\SISM+\obj\Release\SISM+.csproj.ResolveComReference.cache
+E:\test\CoreWebApp\SISM+\obj\Release\SISM_.Properties.Resources.resources
+E:\test\CoreWebApp\SISM+\obj\Release\SISM+.csproj.GenerateResource.cache
+E:\test\CoreWebApp\SISM+\obj\Release\SISM+.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\SISM+\bin\Release\SISM+.exe.config
+E:\test\CoreWebApp\SISM+\bin\Release\SISM+.exe
+E:\test\CoreWebApp\SISM+\bin\Release\SISM+.pdb
+E:\test\CoreWebApp\SISM+\obj\Release\SISM+.exe
+E:\test\CoreWebApp\SISM+\obj\Release\SISM+.pdb
+E:\test\CoreWebApp\SISM+\obj\Release\SISM+.csprojAssemblyReference.cache

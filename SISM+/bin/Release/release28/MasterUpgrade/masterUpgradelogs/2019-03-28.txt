@@ -1,0 +1,12 @@
+【2019-03-28 16:12:38】 升级 解压版本122 返回：失败；错误信息：对路径“D:\dotnet\C21QueryTool\C21.SISClientUpgrade\bin\Release - 副本\SIS6.png”的访问被拒绝。
+【2019-03-28 16:14:13】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\SIS6.png”的访问被拒绝。
+【2019-03-28 16:16:58】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\SIS6.png”的访问被拒绝。
+【2019-03-28 16:17:17】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\SIS6.png”的访问被拒绝。
+【2019-03-28 16:17:37】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\SIS6.png”的访问被拒绝。
+【2019-03-28 16:18:11】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\SIS6.png”的访问被拒绝。
+【2019-03-28 16:20:04】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\sis3.0.exe”的访问被拒绝。
+【2019-03-28 16:42:54】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\sis3.0.exe”的访问被拒绝。
+【2019-03-28 17:08:56】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\sis3.0.exe”的访问被拒绝。
+【2019-03-28 17:09:44】 升级 解压版本122 返回：成功
+【2019-03-28 17:11:11】 升级 解压版本122 返回：失败；错误信息：对路径“E:\test\CoreWebApp\SISM+\bin\Release\release28\sis3.0.exe”的访问被拒绝。
+【2019-03-28 17:13:49】 升级 解压版本122 返回：成功

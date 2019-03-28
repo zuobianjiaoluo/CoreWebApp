@@ -40,3 +40,17 @@ D:\测试项目\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.AssemblyInfo.cs
 D:\测试项目\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.RazorTargetAssemblyInfo.cache
 D:\测试项目\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.dll
 D:\测试项目\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.pdb
+E:\test\CoreWebApp\OcelotDemo\bin\Debug\netcoreapp2.1\OcelotDemo.deps.json
+E:\test\CoreWebApp\OcelotDemo\bin\Debug\netcoreapp2.1\OcelotDemo.runtimeconfig.json
+E:\test\CoreWebApp\OcelotDemo\bin\Debug\netcoreapp2.1\OcelotDemo.runtimeconfig.dev.json
+E:\test\CoreWebApp\OcelotDemo\bin\Debug\netcoreapp2.1\OcelotDemo.dll
+E:\test\CoreWebApp\OcelotDemo\bin\Debug\netcoreapp2.1\OcelotDemo.pdb
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.csprojAssemblyReference.cache
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.RazorAssemblyInfo.cache
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.RazorAssemblyInfo.cs
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.AssemblyInfoInputs.cache
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.AssemblyInfo.cs
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.RazorTargetAssemblyInfo.cache
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.dll
+E:\test\CoreWebApp\OcelotDemo\obj\Debug\netcoreapp2.1\OcelotDemo.pdb

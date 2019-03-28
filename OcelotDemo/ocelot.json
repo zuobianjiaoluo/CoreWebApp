@@ -33,6 +33,42 @@
       "LoadBalancerOptions": {
         "Type": "RoundRobin"
       }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetSex",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1002
+        }
+      ],
+      "UpstreamPathTemplate": "/Sex",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "Sex"
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAge",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 1002
+        }
+      ],
+      "UpstreamPathTemplate": "/Age",
+      "UpstreamHttpMethod": [ "Get" ],
+      "Key": "Age"
+    }
+  ],
+  "Aggregates": //请求聚合执行的操作为：当请求GetUserInfo时，自动到Reoutes中查找ReRouteKeys下Key值相同的路由，并全部请求，然后将请求结果拼成Json格式返回。
+  [
+    {
+      "ReRouteKeys": [
+        "Sex",
+        "Age"
+      ],
+      "UpstreamPathTemplate": "/GetUserInfo"
     }
   ],
   "GlobalConfiguration": {
