@@ -29,6 +29,11 @@ namespace WebApp.Controllers
 
             var startDate = DateTime.Now;
             var client=_httpClientFactory.CreateClient();
+
+            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + obj.access_token);
+
+
+
             var str = "{ \"areaCode\":\"B025\",\"realtyid\":1772109}";
             var url = new Uri("http://172.16.1.121:63310/api/RealtyFiles/GetRealtyFiles");
             var response=PostAsync(url,str).Result;

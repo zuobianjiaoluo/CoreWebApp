@@ -1,0 +1,10 @@
+E:\test\CoreWebApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.deps.json
+E:\test\CoreWebApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.json
+E:\test\CoreWebApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.runtimeconfig.dev.json
+E:\test\CoreWebApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.dll
+E:\test\CoreWebApp\ConsoleApp1\bin\Debug\netcoreapp2.1\ConsoleApp1.pdb
+E:\test\CoreWebApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfoInputs.cache
+E:\test\CoreWebApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.AssemblyInfo.cs
+E:\test\CoreWebApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.dll
+E:\test\CoreWebApp\ConsoleApp1\obj\Debug\netcoreapp2.1\ConsoleApp1.pdb

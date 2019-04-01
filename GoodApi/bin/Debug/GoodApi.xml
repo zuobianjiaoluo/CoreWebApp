@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GoodApi</name>
+    </assembly>
+    <members>
+        <member name="T:GoodApi.Controllers.AuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:GoodApi.Controllers.AuthController.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:GoodApi.Controllers.AuthController.RequestToken(System.String,System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="Username">用户名</param>
+            <param name="Password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:GoodApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            运行时调用此方法。使用此方法配置HTTP请求管道
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

@@ -45,7 +45,6 @@ E:\test\CoreWebApp\GoodApi\bin\Debug\netcoreapp2.1\GoodApi.runtimeconfig.json
 E:\test\CoreWebApp\GoodApi\bin\Debug\netcoreapp2.1\GoodApi.runtimeconfig.dev.json
 E:\test\CoreWebApp\GoodApi\bin\Debug\netcoreapp2.1\GoodApi.dll
 E:\test\CoreWebApp\GoodApi\bin\Debug\netcoreapp2.1\GoodApi.pdb
-E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.csprojAssemblyReference.cache
 E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.csproj.CoreCompileInputs.cache
 E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.RazorAssemblyInfo.cache
 E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.RazorAssemblyInfo.cs
@@ -54,3 +53,5 @@ E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.AssemblyInfo.cs
 E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.RazorTargetAssemblyInfo.cache
 E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.dll
 E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.pdb
+E:\test\CoreWebApp\GoodApi\bin\Debug\netcoreapp2.1\GoodApi.xml
+E:\test\CoreWebApp\GoodApi\obj\Debug\netcoreapp2.1\GoodApi.csprojAssemblyReference.cache

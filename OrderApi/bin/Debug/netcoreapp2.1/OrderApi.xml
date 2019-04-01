@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderApi</name>
+    </assembly>
+    <members>
+        <member name="T:OrderApi.Class">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:OrderApi.Controllers.UserController">
+            <summary>
+            用户API
+            </summary>
+        </member>
+        <member name="M:OrderApi.Controllers.UserController.GetSex(System.String)">
+            <summary>
+            根据名称获取性别
+            </summary>
+            <param name="name">用户姓名</param>
+            <returns></returns>
+        </member>
+        <member name="M:OrderApi.Controllers.UserController.GetAge(System.String)">
+            <summary>
+            根据名称获取年龄
+            </summary>
+            <param name="name">用户姓名</param>
+            <returns></returns>
+        </member>
+        <member name="M:OrderApi.Controllers.UserController.PostInfo(System.String)">
+            <summary>
+            根据名称获取用户信息
+            </summary>
+            <param name="name">用户姓名</param>
+            <returns></returns>
+        </member>
+        <member name="T:OrderApi.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OrderApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:OrderApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            运行时调用此方法。使用此方法配置HTTP请求管道
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+E:\test\CoreWebApp\JwtWebApp\bin\Debug\netcoreapp2.1\JwtWebApp.deps.json
+E:\test\CoreWebApp\JwtWebApp\bin\Debug\netcoreapp2.1\JwtWebApp.runtimeconfig.json
+E:\test\CoreWebApp\JwtWebApp\bin\Debug\netcoreapp2.1\JwtWebApp.runtimeconfig.dev.json
+E:\test\CoreWebApp\JwtWebApp\bin\Debug\netcoreapp2.1\JwtWebApp.dll
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.RazorAssemblyInfo.cache
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.RazorAssemblyInfo.cs
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.AssemblyInfoInputs.cache
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.AssemblyInfo.cs
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.RazorTargetAssemblyInfo.cache
+E:\test\CoreWebApp\JwtWebApp\bin\Debug\netcoreapp2.1\JwtWebApp.pdb
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.dll
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.pdb
+E:\test\CoreWebApp\JwtWebApp\bin\Debug\netcoreapp2.1\JwtWebApp.xml
+E:\test\CoreWebApp\JwtWebApp\obj\Debug\netcoreapp2.1\JwtWebApp.csprojAssemblyReference.cache

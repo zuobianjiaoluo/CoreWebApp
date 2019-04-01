@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JwtWebApp</name>
+    </assembly>
+    <members>
+        <member name="T:JwtWebApp.Controllers.AuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JwtWebApp.Controllers.AuthController.CanValidateToken">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Controllers.AuthController.CanReadToken(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="securityToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Controllers.AuthController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Options.IOptions{JwtWebApp.JwtSettings})">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:JwtWebApp.Controllers.AuthController.RequestToken(JwtWebApp.Controllers.UserInfo)">
+            <summary>
+            获取Token
+            </summary>
+            <param name="Username">用户名</param>
+            <param name="Password">密码</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Controllers.AuthController.DecryptToken(System.String)">
+            <summary>
+            解析JWT
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Controllers.AuthController.ValidateToken(System.String,Microsoft.IdentityModel.Tokens.SecurityToken@)">
+            <summary>
+            
+            </summary>
+            <param name="securityToken"></param>
+            <param name="validatedToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:JwtWebApp.Controllers.UserInfo">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JwtWebApp.Controllers.UserInfo.Username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JwtWebApp.Controllers.UserInfo.Password">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:JwtWebApp.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:JwtWebApp.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

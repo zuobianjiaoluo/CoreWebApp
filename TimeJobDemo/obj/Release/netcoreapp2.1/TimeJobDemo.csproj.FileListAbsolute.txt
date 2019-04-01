@@ -1,0 +1,14 @@
+E:\test\CoreWebApp\TimeJobDemo\bin\Release\netcoreapp2.1\TimeJobDemo.deps.json
+E:\test\CoreWebApp\TimeJobDemo\bin\Release\netcoreapp2.1\TimeJobDemo.runtimeconfig.json
+E:\test\CoreWebApp\TimeJobDemo\bin\Release\netcoreapp2.1\TimeJobDemo.runtimeconfig.dev.json
+E:\test\CoreWebApp\TimeJobDemo\bin\Release\netcoreapp2.1\TimeJobDemo.dll
+E:\test\CoreWebApp\TimeJobDemo\bin\Release\netcoreapp2.1\TimeJobDemo.pdb
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.csprojAssemblyReference.cache
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.RazorAssemblyInfo.cache
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.RazorAssemblyInfo.cs
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.AssemblyInfoInputs.cache
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.AssemblyInfo.cs
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.RazorTargetAssemblyInfo.cache
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.dll
+E:\test\CoreWebApp\TimeJobDemo\obj\Release\netcoreapp2.1\TimeJobDemo.pdb

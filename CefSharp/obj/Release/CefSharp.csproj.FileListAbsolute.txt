@@ -1,0 +1,5 @@
+E:\test\CoreWebApp\CefSharp\obj\Release\CefSharp.csprojAssemblyReference.cache
+E:\test\CoreWebApp\CefSharp\obj\Release\CefSharp.Form1.resources
+E:\test\CoreWebApp\CefSharp\obj\Release\CefSharp.Properties.Resources.resources
+E:\test\CoreWebApp\CefSharp\obj\Release\CefSharp.csproj.GenerateResource.cache
+E:\test\CoreWebApp\CefSharp\obj\Release\CefSharp.csproj.CoreCompileInputs.cache

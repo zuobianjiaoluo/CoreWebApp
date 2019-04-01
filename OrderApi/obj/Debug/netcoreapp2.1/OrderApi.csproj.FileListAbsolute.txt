@@ -45,7 +45,6 @@ E:\test\CoreWebApp\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.runtimeconfig.json
 E:\test\CoreWebApp\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.runtimeconfig.dev.json
 E:\test\CoreWebApp\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.dll
 E:\test\CoreWebApp\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.pdb
-E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.csprojAssemblyReference.cache
 E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.csproj.CoreCompileInputs.cache
 E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.RazorAssemblyInfo.cache
 E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.RazorAssemblyInfo.cs
@@ -54,3 +53,6 @@ E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.AssemblyInfo.cs
 E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.RazorTargetAssemblyInfo.cache
 E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.dll
 E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.pdb
+E:\test\CoreWebApp\OrderApi\bin\Debug\netcoreapp2.1\wwwroot\Scripts\swagger.js
+E:\test\CoreWebApp\OrderApi\bin\Debug\netcoreapp2.1\OrderApi.xml
+E:\test\CoreWebApp\OrderApi\obj\Debug\netcoreapp2.1\OrderApi.csprojAssemblyReference.cache
