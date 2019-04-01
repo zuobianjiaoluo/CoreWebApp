@@ -27,7 +27,7 @@
             </summary>
             <param name="configuration"></param>
         </member>
-        <member name="M:JwtWebApp.Controllers.AuthController.RequestToken(JwtWebApp.Controllers.UserInfo)">
+        <member name="M:JwtWebApp.Controllers.AuthController.RequestToken(JwtWebApp.UserInfo)">
             <summary>
             获取Token
             </summary>
@@ -50,17 +50,22 @@
             <param name="validatedToken"></param>
             <returns></returns>
         </member>
-        <member name="T:JwtWebApp.Controllers.UserInfo">
+        <member name="T:JwtWebApp.JwtResponse">
             <summary>
             
             </summary>
         </member>
-        <member name="P:JwtWebApp.Controllers.UserInfo.Username">
+        <member name="T:JwtWebApp.UserInfo">
             <summary>
             
             </summary>
         </member>
-        <member name="P:JwtWebApp.Controllers.UserInfo.Password">
+        <member name="P:JwtWebApp.UserInfo.Username">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:JwtWebApp.UserInfo.Password">
             <summary>
             
             </summary>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -9,11 +10,13 @@ namespace JwtWebApp.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        private readonly IHttpClientFactory _httpClientFactory;
+        //private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IHostingEnvironment _hostingEnv;
 
-        public ValuesController(IHttpClientFactory httpClientFactory)
+        public ValuesController(IHostingEnvironment hostingEnv)
         {
-            _httpClientFactory = httpClientFactory;
+            _hostingEnv = hostingEnv;
+            //_httpClientFactory = httpClientFactory;
         }
         // GET api/values
         [HttpGet]
@@ -23,13 +26,27 @@ namespace JwtWebApp.Controllers
             return new string[] { "valfffffffffffffffffffffffffue1", "vasdddddddddddddddlue2" };
         }
 
-        public string GetUser(string access_token)
+        // GET api/values
+        [HttpGet]
+        public IActionResult GetJson()
         {
-            var client = _httpClientFactory.CreateClient();
+            
+               Txt txt = new Txt();
+            var json =txt.GetJson(_hostingEnv.WebRootPath);
 
-            client.DefaultRequestHeaders.Add("Authorization", "Bearer " + access_token);
 
-            return "";
+            return Ok(json);
         }
+        
+
+
+        //public string GetUser(string access_token)
+        //{
+        //    var client = _httpClientFactory.CreateClient();
+
+        //    client.DefaultRequestHeaders.Add("Authorization", "Bearer " + access_token);
+
+        //    return "";
+        //}
     }
 }
