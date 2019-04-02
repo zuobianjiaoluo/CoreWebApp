@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "BeetleX/1.2.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.1/BeetleX.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/BeetleX.dll": {}
+        }
+      },
+      "BeetleX.FastHttpApi/1.4.0.2": {
+        "type": "package",
+        "dependencies": {
+          "BeetleX": "1.2.5.6",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/BeetleX.FastHttpApi.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/BeetleX.FastHttpApi.dll": {}
+        }
+      },
       "JWT/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -4714,6 +4736,30 @@
     }
   },
   "libraries": {
+    "BeetleX/1.2.5.6": {
+      "sha512": "X4Ai3pTpmYe6AKGLMLirDC9NzQEMLygkZizDeTWLk4dmcF8ltaOxbHc2RsZG5Yw8XAEWdAgd2lz03FLDAvirkg==",
+      "type": "package",
+      "path": "beetlex/1.2.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "beetlex.1.2.5.6.nupkg.sha512",
+        "beetlex.nuspec",
+        "lib/netcoreapp2.1/BeetleX.dll"
+      ]
+    },
+    "BeetleX.FastHttpApi/1.4.0.2": {
+      "sha512": "2+1rsTK9xG4hbQtlRw3FHt1/fucHZl+q/V2EEKE0kh6dejuZ1F402cc6KCSewPiOSzQ6hGpTJfWCSNkGk6OUrg==",
+      "type": "package",
+      "path": "beetlex.fasthttpapi/1.4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "beetlex.fasthttpapi.1.4.0.2.nupkg.sha512",
+        "beetlex.fasthttpapi.nuspec",
+        "lib/netcoreapp2.1/BeetleX.FastHttpApi.dll"
+      ]
+    },
     "JWT/5.0.1": {
       "sha512": "9zwqx/Ii2WH3UK1qzEYmWEUD7YxDNsC/ikcxJxjnV+dbE+LN1rdtDRtJwEaNqBZNycVyw+Ga9d8SM8lXa4a2CA==",
       "type": "package",
@@ -12795,6 +12841,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BeetleX.FastHttpApi >= 1.4.0.2",
       "JWT >= 5.0.1",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -12844,6 +12891,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "BeetleX.FastHttpApi": {
+            "target": "Package",
+            "version": "[1.4.0.2, )"
+          },
           "JWT": {
             "target": "Package",
             "version": "[5.0.1, )"

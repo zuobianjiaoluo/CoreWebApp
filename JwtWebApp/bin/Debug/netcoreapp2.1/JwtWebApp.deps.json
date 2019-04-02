@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "f7f90bb92e18310ce6262b1207f25d18580bb269"
+    "signature": "2bb224a25c5d709f6ba47dd98de3baba593ee5eb"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "JwtWebApp/1.0.0": {
         "dependencies": {
+          "BeetleX.FastHttpApi": "1.4.0.2",
           "JWT": "5.0.1",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -36,6 +37,32 @@
         },
         "compile": {
           "JwtWebApp.dll": {}
+        }
+      },
+      "BeetleX/1.2.5.6": {
+        "runtime": {
+          "lib/netcoreapp2.1/BeetleX.dll": {
+            "assemblyVersion": "1.2.5.6",
+            "fileVersion": "1.2.5.6"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/BeetleX.dll": {}
+        }
+      },
+      "BeetleX.FastHttpApi/1.4.0.2": {
+        "dependencies": {
+          "BeetleX": "1.2.5.6",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/BeetleX.FastHttpApi.dll": {
+            "assemblyVersion": "1.4.0.2",
+            "fileVersion": "1.4.0.2"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/BeetleX.FastHttpApi.dll": {}
         }
       },
       "JWT/5.0.1": {
@@ -3552,6 +3579,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BeetleX/1.2.5.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X4Ai3pTpmYe6AKGLMLirDC9NzQEMLygkZizDeTWLk4dmcF8ltaOxbHc2RsZG5Yw8XAEWdAgd2lz03FLDAvirkg==",
+      "path": "beetlex/1.2.5.6",
+      "hashPath": "beetlex.1.2.5.6.nupkg.sha512"
+    },
+    "BeetleX.FastHttpApi/1.4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2+1rsTK9xG4hbQtlRw3FHt1/fucHZl+q/V2EEKE0kh6dejuZ1F402cc6KCSewPiOSzQ6hGpTJfWCSNkGk6OUrg==",
+      "path": "beetlex.fasthttpapi/1.4.0.2",
+      "hashPath": "beetlex.fasthttpapi.1.4.0.2.nupkg.sha512"
     },
     "JWT/5.0.1": {
       "type": "package",

@@ -69,6 +69,8 @@ namespace JwtWebApp
             });
 
             //#endif
+
+            services.AddHttpClient(); //注册httpclient服务
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

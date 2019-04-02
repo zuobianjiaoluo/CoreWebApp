@@ -50,6 +50,28 @@
             <param name="validatedToken"></param>
             <returns></returns>
         </member>
+        <member name="M:JwtWebApp.Controllers.ValuesController.GetUser(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="access_token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Controllers.ValuesController.PostAsync(System.Uri,System.String)">
+            <summary>
+            POST请求
+            </summary>
+            <param name="uri"></param>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Controllers.ValuesController.Get(System.Uri)">
+            <summary>
+            GET请求
+            </summary>
+            <param name="uri"></param>
+            <returns></returns>
+        </member>
         <member name="T:JwtWebApp.JwtResponse">
             <summary>
             
