@@ -50,28 +50,6 @@
             <param name="validatedToken"></param>
             <returns></returns>
         </member>
-        <member name="M:JwtWebApp.Controllers.ValuesController.GetUser(System.String)">
-            <summary>
-            
-            </summary>
-            <param name="access_token"></param>
-            <returns></returns>
-        </member>
-        <member name="M:JwtWebApp.Controllers.ValuesController.PostAsync(System.Uri,System.String)">
-            <summary>
-            POST请求
-            </summary>
-            <param name="uri"></param>
-            <param name="content"></param>
-            <returns></returns>
-        </member>
-        <member name="M:JwtWebApp.Controllers.ValuesController.Get(System.Uri)">
-            <summary>
-            GET请求
-            </summary>
-            <param name="uri"></param>
-            <returns></returns>
-        </member>
         <member name="T:JwtWebApp.JwtResponse">
             <summary>
             
@@ -92,6 +70,161 @@
             
             </summary>
         </member>
+        <member name="T:JwtWebApp.Lib.FtpHelper">
+            <summary>
+            FTP帮助类
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.GetFileList(System.String)">
+            <summary>
+            获取ftp上面的文件和文件夹
+            </summary>
+            <param name="dir"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.GetFileSize(System.String)">
+            <summary>
+            获取文件大小
+            </summary>
+            <param name="file">ip服务器下的相对路径</param>
+            <returns>文件大小</returns>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.FileUpLoad(System.String,System.String)">
+            <summary>
+            文件上传
+            </summary>
+            <param name="filePath">原路径（绝对路径）包括文件名</param>
+            <param name="objPath">目标文件夹：服务器下的相对路径 不填为根目录</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.DeleteFileName(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="fileName">服务器下的相对路径 包括文件名</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.MakeDir(System.String)">
+            <summary>
+            新建目录 上一级必须先存在
+            </summary>
+            <param name="dirName">服务器下的相对路径</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.DelDir(System.String)">
+            <summary>
+            删除目录 上一级必须先存在
+            </summary>
+            <param name="dirName">服务器下的相对路径</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.GetDirctory(System.String)">
+            <summary>
+            从ftp服务器上获得文件夹列表
+            </summary>
+            <param name="RequedstPath">服务器下的相对路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.GetFile(System.String)">
+            <summary>
+            从ftp服务器上获得文件列表
+            </summary>
+            <param name="RequedstPath">服务器下的相对路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Lib.FtpHelper.FtpDownload(System.String,System.String)">
+            <summary>
+            从ftp服务器上下载文件的功能
+            </summary>
+            <param name="fileName"></param>
+            <param name="webRootPath"></param>
+        </member>
+        <member name="T:JwtWebApp.Lib.MongoDBHelper">
+            <summary>
+            MongoDB帮助类
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Lib.MongoDBHelper.AddUser">
+            <summary>
+            添加
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Lib.MongoDBHelper.GetUser">
+            <summary>
+            查询
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Lib.MongoDBHelper.UpdateUser">
+            <summary>
+            修改
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Lib.MongoDBHelper.DelUser">
+            <summary>
+            删除
+            </summary>
+        </member>
+        <member name="T:JwtWebApp.Lib.SFTPHelper">
+            <summary>
+            SFTP操作类
+            </summary>
+        </member>
+        <member name="P:JwtWebApp.Lib.SFTPHelper.Connected">
+            <summary>
+            SFTP连接状态
+            </summary>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            构造
+            </summary>
+            <param name="ip">IP</param>
+            <param name="port">端口</param>
+            <param name="user">用户名</param>
+            <param name="pwd">密码</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.Connect">
+            <summary>
+            连接SFTP
+            </summary>
+            <returns>true成功</returns>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.Disconnect">
+            <summary>
+            断开SFTP
+            </summary> 
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.Put(System.String,System.String)">
+            <summary>
+            SFTP上传文件
+            </summary>
+            <param name="localPath">本地路径</param>
+            <param name="remotePath">远程路径</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.Get(System.String,System.String)">
+            <summary>
+            SFTP获取文件
+            </summary>
+            <param name="remotePath">远程路径</param>
+            <param name="localPath">本地路径</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.Delete(System.String)">
+            <summary>
+            删除SFTP文件 
+            </summary>
+            <param name="remoteFile">远程路径</param>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.GetFileList(System.String,System.String)">
+            <summary>
+            获取SFTP文件列表
+            </summary>
+            <param name="remotePath">远程目录</param>
+            <param name="fileSuffix">文件后缀</param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Lib.SFTPHelper.Move(System.String,System.String)">
+            <summary>
+            移动SFTP文件
+            </summary>
+            <param name="oldRemotePath">旧远程路径</param>
+            <param name="newRemotePath">新远程路径</param>
+        </member>
         <member name="T:JwtWebApp.Startup">
             <summary>
             
@@ -107,6 +240,20 @@
             <summary>
             
             </summary>
+        </member>
+        <member name="M:JwtWebApp.Txt.GetJson(System.String)">
+            <summary>
+            全部读取txt内容循环输出
+            </summary>
+            <param name="webRootUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JwtWebApp.Txt.GetOneJson(System.String)">
+            <summary>
+            单行读取循环输出
+            </summary>
+            <param name="webRootUrl"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>
