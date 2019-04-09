@@ -1,0 +1,11 @@
+E:\test\CoreWebApp\WebQuartz\bin\Debug\netcoreapp2.1\WebQuartz.deps.json
+E:\test\CoreWebApp\WebQuartz\bin\Debug\netcoreapp2.1\WebQuartz.runtimeconfig.json
+E:\test\CoreWebApp\WebQuartz\bin\Debug\netcoreapp2.1\WebQuartz.runtimeconfig.dev.json
+E:\test\CoreWebApp\WebQuartz\bin\Debug\netcoreapp2.1\WebQuartz.dll
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.csprojAssemblyReference.cache
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.RazorAssemblyInfo.cache
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.RazorAssemblyInfo.cs
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.AssemblyInfoInputs.cache
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.AssemblyInfo.cs
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.RazorTargetAssemblyInfo.cache
