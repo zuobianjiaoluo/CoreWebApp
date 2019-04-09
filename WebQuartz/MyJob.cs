@@ -16,8 +16,8 @@ namespace WebQuartz
 
             var data = context.MergedJobDataMap;//获取Job和Trigger中合并的参数
 
-            var value1 = jobData.GetInt("key1");
-            var value2 = jobData.GetString("key2");
+            var value1 = triggerData.GetInt("key1");
+            var value2 = triggerData.GetString("key2");
             var dateString = DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss")+ " jobData="+ jobData+ ";triggerData=" + triggerData;
             return Task.Run(() =>
             {

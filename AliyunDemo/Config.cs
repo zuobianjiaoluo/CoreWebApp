@@ -7,23 +7,23 @@
 
         //开发环境
         //您的访问密钥ID
-        public static string AccessKeyId = "LTAI8ybf3HQPYGi9";
+        public static string AccessKeyId = "";
         //您的访问密钥
-        public static string AccessKeySecret = "wlJYPIF4VfY5jrKv29TzqYolEo815D";
+        public static string AccessKeySecret = "";
         //你的端点
-        public static string Endpoint = "http://oss-cn-hangzhou.aliyuncs.com";
+        public static string Endpoint = "";
         //bucketName
-        public static string BucketName = "c21-test";
+        public static string BucketName = "";
 
         ////开发环境
         ////您的访问密钥ID
-        //public static string AccessKeyId = "LTAI8ybf3HQPYGi9";
+        //public static string AccessKeyId = "";
         ////您的访问密钥
-        //public static string AccessKeySecret = "wlJYPIF4VfY5jrKv29TzqYolEo815D";
+        //public static string AccessKeySecret = "";
         ////你的端点
-        //public static string Endpoint = "http://oss-cn-beijing.aliyuncs.com";
+        //public static string Endpoint = "";
         ////bucketName
-        //public static string BucketName = "c21-sis";
+        //public static string BucketName = "";
         
 
 

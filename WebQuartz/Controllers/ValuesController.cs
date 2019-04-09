@@ -20,8 +20,18 @@ namespace WebQuartz.Controllers
         {
             this._schedulerFactory = schedulerFactory;
         }
+
         [HttpGet]
-        public async Task<string[]> Get()
+        public async Task<string[]> GetER()
+        {
+            //1、通过调度工厂获得调度器
+
+            return await Task.FromResult(new string[] { "value12", "value23" });
+        }
+
+
+        [HttpPost]
+        public async Task<string[]> GetERDDDD()
         {
             //1、通过调度工厂获得调度器
             _scheduler = await _schedulerFactory.GetScheduler();
@@ -60,9 +70,9 @@ namespace WebQuartz.Controllers
             //0 15 10 * * ? *每天上午10 : 15触发
             //0 15 10 * * ? 2005    2005年的每天上午10: 15触发
             //0 * 14 * * ? 在每天下午2点到下午2 : 59期间的每1分钟触发
-            //0 0 / 5 14 * * ? 在每天下午2点到下午2 : 55期间的每5分钟触发
-            //0 0 / 5 14,18 * * ? 在每天下午2点到2 : 55期间和下午6点到6: 55期间的每5分钟触发
-            //0 0 - 5 14 * * ? 在每天下午2点到下午2 : 05期间的每1分钟触发
+            //0 0/5 14 * * ? 在每天下午2点到下午2 : 55期间的每5分钟触发
+            //0 0/5 14,18 * * ? 在每天下午2点到2 : 55期间和下午6点到6: 55期间的每5分钟触发
+            //0 0-5 14 * * ? 在每天下午2点到下午2 : 05期间的每1分钟触发
             //0 10,44 14 ? 3 WED    每年三月的星期三的下午2: 10和2: 44触发
             //0 15 10 ? *MON - FRI    周一至周五的上午10:15触发
             //0 15 10 15 * ? 每月15日上午10 : 15触发
@@ -70,11 +80,12 @@ namespace WebQuartz.Controllers
             //0 15 10 ? *6L    每月的最后一个星期五上午10:15触发
             //0 15 10 ? *6L 2002 - 2005   2002年至2005年的每月的最后一个星期五上午10: 15触发
             //0 15 10 ? *6#3   每月的第三个星期五上午10:15触发
-            //"0 15 10 * * ? *"         每天上午10: 15触发
-            //"0 0-5 14 * * ?"          每天下午2点到下午2: 05期间的每1分钟触发
+            //0 15 10 * * ? *        每天上午10: 15触发
+            //0 0-5 14 * * ?         每天下午2点到下午2: 05期间的每1分钟触发
+            //0 0/2 * * * ?  每2分钟触发
             //CronTrigger:Cron表达式包含7个字段，秒 分 时 月内日期 月 周内日期 年(可选)。
             var trigger5 = TriggerBuilder.Create()
-                       .WithCronSchedule("0 0 0 1 1 ?")// 每年元旦1月1日 0 点触发
+                       .WithCronSchedule("0 0/2 * * * ?")// 每2分钟触发
                        .UsingJobData("key1", 321)
                        .UsingJobData("key2", "trigger-key2")
                        .WithIdentity("trigger4", "group14")
@@ -93,7 +104,8 @@ namespace WebQuartz.Controllers
 
 
             //5、调度器    调度器就是将任务和触发器绑定，让触发器触发的时候去执行任务。
-            await _scheduler.ScheduleJob(jobDetail, trigger);
+            await _scheduler.ScheduleJob(jobDetail, trigger5);
+
             return await Task.FromResult(new string[] { "value1", "value2" });
         }
     }

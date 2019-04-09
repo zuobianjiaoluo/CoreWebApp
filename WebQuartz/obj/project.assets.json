@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "CrystalQuartz.Remote/6.8.1": {
+        "type": "package",
+        "compile": {
+          "lib/net452/CrystalQuartz.Core.dll": {},
+          "lib/net452/CrystalQuartz.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net452/CrystalQuartz.Core.dll": {},
+          "lib/net452/CrystalQuartz.Web.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4487,6 +4498,22 @@
     }
   },
   "libraries": {
+    "CrystalQuartz.Remote/6.8.1": {
+      "sha512": "0bsjT4pguRXQfs/6Av7QXIh/ZpnQZrgTZXPYvJ+c+BsJrTRViP1uWPGCegGwtj9dq+SySaP9hnm34ju5T+h3Ow==",
+      "type": "package",
+      "path": "crystalquartz.remote/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Web.config.transform",
+        "crystalquartz.remote.6.8.1.nupkg.sha512",
+        "crystalquartz.remote.nuspec",
+        "lib/net40/CrystalQuartz.Core.dll",
+        "lib/net40/CrystalQuartz.Web.dll",
+        "lib/net452/CrystalQuartz.Core.dll",
+        "lib/net452/CrystalQuartz.Web.dll"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -12271,6 +12298,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "CrystalQuartz.Remote >= 6.8.1",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
       "Quartz >= 3.0.7"
@@ -12317,6 +12345,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "CrystalQuartz.Remote": {
+            "target": "Package",
+            "version": "[6.8.1, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
@@ -12340,5 +12372,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1”而不是项目目标框架“.NETCoreApp,Version=v2.1”还原包“CrystalQuartz.Remote 6.8.1”。此包可能与项目不完全兼容。",
+      "libraryId": "CrystalQuartz.Remote",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

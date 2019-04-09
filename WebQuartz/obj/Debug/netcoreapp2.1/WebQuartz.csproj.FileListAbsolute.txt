@@ -9,3 +9,6 @@ E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.RazorAssemblyInfo
 E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.AssemblyInfoInputs.cache
 E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.AssemblyInfo.cs
 E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.RazorTargetAssemblyInfo.cache
+E:\test\CoreWebApp\WebQuartz\bin\Debug\netcoreapp2.1\WebQuartz.pdb
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.dll
+E:\test\CoreWebApp\WebQuartz\obj\Debug\netcoreapp2.1\WebQuartz.pdb
