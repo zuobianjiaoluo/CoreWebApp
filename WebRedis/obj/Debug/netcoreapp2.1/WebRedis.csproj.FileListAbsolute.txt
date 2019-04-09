@@ -1,0 +1,14 @@
+E:\test\CoreWebApp\WebRedis\bin\Debug\netcoreapp2.1\WebRedis.deps.json
+E:\test\CoreWebApp\WebRedis\bin\Debug\netcoreapp2.1\WebRedis.runtimeconfig.json
+E:\test\CoreWebApp\WebRedis\bin\Debug\netcoreapp2.1\WebRedis.runtimeconfig.dev.json
+E:\test\CoreWebApp\WebRedis\bin\Debug\netcoreapp2.1\WebRedis.dll
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.csproj.CoreCompileInputs.cache
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.RazorAssemblyInfo.cache
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.RazorAssemblyInfo.cs
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.AssemblyInfoInputs.cache
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.AssemblyInfo.cs
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.RazorTargetAssemblyInfo.cache
+E:\test\CoreWebApp\WebRedis\bin\Debug\netcoreapp2.1\WebRedis.pdb
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.csprojAssemblyReference.cache
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.dll
+E:\test\CoreWebApp\WebRedis\obj\Debug\netcoreapp2.1\WebRedis.pdb
