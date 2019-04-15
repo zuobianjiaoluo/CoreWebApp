@@ -1,0 +1,257 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\test\\CoreWebApp\\MyWTM\\MyWTM\\MyWTM.csproj": {}
+  },
+  "projects": {
+    "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.DataAccess\\MyWTM.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.DataAccess\\MyWTM.DataAccess.csproj",
+        "projectName": "MyWTM.DataAccess",
+        "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.DataAccess\\MyWTM.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj": {
+                "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj",
+        "projectName": "MyWTM.Model",
+        "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "WalkingTec.Mvvm.Core": {
+              "target": "Package",
+              "version": "[2.2.28, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.ViewModel\\MyWTM.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.ViewModel\\MyWTM.ViewModel.csproj",
+        "projectName": "MyWTM.ViewModel",
+        "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.ViewModel\\MyWTM.ViewModel.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.ViewModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj": {
+                "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\test\\CoreWebApp\\MyWTM\\MyWTM\\MyWTM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM\\MyWTM.csproj",
+        "projectName": "MyWTM",
+        "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM\\MyWTM.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.DataAccess\\MyWTM.DataAccess.csproj": {
+                "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.DataAccess\\MyWTM.DataAccess.csproj"
+              },
+              "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj": {
+                "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.Model\\MyWTM.Model.csproj"
+              },
+              "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.ViewModel\\MyWTM.ViewModel.csproj": {
+                "projectPath": "E:\\test\\CoreWebApp\\MyWTM\\MyWTM.ViewModel\\MyWTM.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "WalkingTec.Mvvm.Mvc.Admin": {
+              "target": "Package",
+              "version": "[2.2.28, )"
+            },
+            "WalkingTec.Mvvm.TagHelpers.LayUI": {
+              "target": "Package",
+              "version": "[2.2.28, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

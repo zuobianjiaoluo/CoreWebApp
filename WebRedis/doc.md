@@ -15,7 +15,7 @@ E:\软件\Redis\Redis-x64-3.2.100>redis-server.exe --service-install redis.windo
 [27212] 09 Apr 15:48:43.246 # Granting read/write access to 'NT AUTHORITY\NetworkService' on: "E:\软件\Redis\Redis-x64-3.2.100" "E:\软件\Redis\Redis-x64-3.2.100\"
 [27212] 09 Apr 15:48:43.246 # Redis successfully installed as a service.
 
-E:\软件\Redis\Redis-x64-3.2.100>redis-cli -h 127.0.0.1 -p 6379
+E:\软件\Redis\Redis-x64-3.2.100>redis-cli -h 127.0.0.1 -p 6379  //redis-cli 命令大全：http://www.runoob.com/redis/redis-commands.html
 127.0.0.1:6379> get name
 (nil)
 127.0.0.1:6379> set name qixiao

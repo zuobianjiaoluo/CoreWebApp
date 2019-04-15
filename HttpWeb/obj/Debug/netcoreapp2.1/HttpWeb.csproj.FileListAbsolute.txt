@@ -22,7 +22,6 @@ E:\test\CoreWebApp\HttpWeb\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cs
 E:\test\CoreWebApp\HttpWeb\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 E:\test\CoreWebApp\HttpWeb\obj\Debug\netcoreapp2.1\HttpWeb.RazorTargetAssemblyInfo.cache
 E:\test\CoreWebApp\HttpWeb\obj\Debug\netcoreapp2.1\HttpWeb.RazorTargetAssemblyInfo.cs
-E:\test\CoreWebApp\HttpWeb\obj\Debug\netcoreapp2.1\HttpWeb.csprojAssemblyReference.cache
 E:\test\CoreWebApp\HttpWeb\bin\Debug\netcoreapp2.1\HttpWeb.pdb
 E:\test\CoreWebApp\HttpWeb\bin\Debug\netcoreapp2.1\HttpWeb.Views.dll
 E:\test\CoreWebApp\HttpWeb\bin\Debug\netcoreapp2.1\HttpWeb.Views.pdb
